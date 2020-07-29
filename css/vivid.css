@@ -100,8 +100,13 @@ ul li a:hover::after {
 .title-col-home {
     text-align: center;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 3px;
+    padding-top: 30px;
+}
+
+.title-col-home span {
+    color: whitesmoke;
 }
 
 #about {
