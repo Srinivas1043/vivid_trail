@@ -22,6 +22,11 @@ nav {
     letter-spacing: 5px;
 }
 
+.img-logo {
+    height: 40px;
+    width: 40px;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-around;
@@ -82,8 +87,8 @@ ul li a:hover::after {
 }
 
 .home-img {
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     transition: ease .5s;
 }
 
@@ -94,7 +99,7 @@ ul li a:hover::after {
 
 .title-col-home {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 40px;
     letter-spacing: 3px;
 }
@@ -105,7 +110,7 @@ ul li a:hover::after {
 
 .about-header {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -127,16 +132,18 @@ ul li a:hover::after {
 .about-content-title {
     color: whitesmoke;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     letter-spacing: 3px;
     font-size: 30px;
 }
 
 .about-content-info {
-    color: whitesmoke;
+    color: #d4af37;
     text-align: justify;
-    opacity: 70%;
     padding-top: 30px;
+    font-size: 20px;
+    opacity: 85%;
+    font-family: 'Dancing Script', cursive;
 }
 
 .about-content-info span {
@@ -149,6 +156,138 @@ ul li a:hover::after {
     width: 20%;
     margin-left: 40%;
     transition: ease-in 4s;
+}
+
+#gallery {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.img-row {
+    padding-top: 30px;
+}
+
+.gallery-img {
+    height: 460px !important;
+    box-shadow: 0 4px 8px 0 rgba(194, 159, 3, 0.2);
+    transition: .8s !important;
+}
+
+.gallery-img:hover {
+    box-shadow: 0 14px 28px 0 rgba(194, 159, 3, 0.582);
+}
+
+.left-img-col p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.right-text-col p {
+    padding-top: 140px;
+    text-align: center;
+    transition: .8s;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-text-col p {
+    padding-top: 140px;
+    text-align: center;
+    transition: .8s;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gallery-img-right {
+    height: 460px !important;
+    box-shadow: 0 4px 8px 0 rgba(194, 159, 3, 0.2);
+    transition: .8s !important;
+    margin-left: 60px;
+}
+
+.gallery-img-right:hover {
+    box-shadow: 0 14px 28px 0 rgba(158, 131, 11, 0.568);
+}
+
+.right-img-col p {
+    margin-left: 60px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.gallery-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#contact {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.row-cont {
+    padding-top: 60px !important;
+    margin-left: 90px !important;
+    padding-bottom: 50px;
+}
+
+.row-cont div a {
+    text-decoration: none;
+}
+
+.btn-default {
+    border-color: #11111100 !important;
+    color: #d4af37 !important;
+    box-shadow: 0 4px 8px 0 rgba(194, 159, 3, 0.2);
+}
+
+.btn-default:hover {
+    box-shadow: 0 8px 18px 0 rgba(194, 159, 3, 0.2);
+}
+
+.row-cont div a:hover {
+    box-shadow: 0 4px 8px 0 rgba(194, 159, 3, 0.2);
+    transition: .3s;
+}
+
+#cover-divider {
+    border: 2px solid black;
+    padding: 190px;
+    background: url(/media/img/cover1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 50%;
+}
+
+#footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #f7f2f2;
+    color: #0a111b;
+    text-align: center;
+    box-shadow: 16px 0px 8px 0px rgba(167, 138, 10, 0.2) !important;
+}
+
+#footer:hover {
+    box-shadow: 36px 0px 18px 0px rgba(167, 138, 10, 0.2);
 }
 
 @media screen and (max-width: 768px) {
