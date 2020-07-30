@@ -1,8 +1,9 @@
-* {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #d4af37;
+    color: #d4af37 !important;
     background-color: black !important;
     scroll-behavior: smooth;
 }
@@ -11,14 +12,18 @@ nav {
     display: flex !important;
     justify-content: space-around !important;
     align-items: center;
-    background-color: #000000 !important;
+    background-color: whitesmoke !important;
     min-height: 8vh;
     box-shadow: 0 4px 8px 0 rgba(194, 159, 3, 0.2);
 }
 
+img {
+    pointer-events: none;
+}
+
 .logo {
     text-transform: uppercase;
-    color: azure !important;
+    color: #000000 !important;
     letter-spacing: 5px;
 }
 
@@ -31,7 +36,7 @@ nav {
     display: flex;
     justify-content: space-around;
     width: 50%;
-    color: azure !important;
+    color: #000000 !important;
 }
 
 .nav-links a {
@@ -39,7 +44,7 @@ nav {
     letter-spacing: 3px;
     font-weight: normal;
     font-size: 14px;
-    color: azure !important;
+    color: #000000 !important;
 }
 
 .nav-links li {
@@ -102,11 +107,12 @@ ul li a:hover::after {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 30px;
     letter-spacing: 3px;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .title-col-home span {
     color: whitesmoke;
+    font-size: 45px;
 }
 
 #about {
@@ -146,13 +152,13 @@ ul li a:hover::after {
     color: #d4af37;
     text-align: justify;
     padding-top: 30px;
-    font-size: 20px;
+    font-size: 24px;
     opacity: 85%;
     font-family: 'Dancing Script', cursive;
 }
 
 .about-content-info span {
-    font-size: 25px;
+    font-size: 55px;
     color: #d4af37;
 }
 
