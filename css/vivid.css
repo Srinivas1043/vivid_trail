@@ -17,10 +17,6 @@ nav {
     box-shadow: 0 4px 8px 0 rgba(194, 159, 3, 0.2);
 }
 
-img {
-    pointer-events: none;
-}
-
 .logo {
     text-transform: uppercase;
     color: #000000 !important;
