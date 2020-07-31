@@ -8,6 +8,10 @@ body {
     scroll-behavior: smooth;
 }
 
+img {
+    pointer-events: none;
+}
+
 nav {
     display: flex !important;
     justify-content: space-around !important;
