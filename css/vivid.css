@@ -315,11 +315,13 @@ ul li a:hover::after {
         margin-top: 44px;
         text-align: center;
         width: 100%;
+        color: #0a111b;
+        background-color: whitesmoke !important;
         padding-bottom: 40px;
     }
     .burger {
+        background-color: whitesmoke !important;
         display: block;
-        background-color: #0f0f0f;
         transition: .5s;
     }
 }
